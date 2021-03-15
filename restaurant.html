@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Working with Booleans</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+        var isVegetarian= confirm("Are you vegetarian?");
+        var hasAllergy = confirm ("Do you have any kind of allergies");
+        var isFirstTimeCustomer= confirm("Is it your first time ordering here?");
+
+        if (hasAllergy) {
+            alert("All our products have a clear display of common allergens. Don't hesitate to ask if you have any doubt.");
+    
+        }
+
+        if (isVegetarian) {
+            alert ("We have a full vegetarian menu!");
+
+        } 
+
+        if (isFirstTimeCustomer) {
+            alert("Welcome! You have a 10% discount as is your first order!");
+
+        } else{
+            alert("Welcome back! Is nice to have you here again.");
+
+        }
+    </script>
+  </body>
+</html>
